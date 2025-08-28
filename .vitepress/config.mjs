@@ -197,6 +197,30 @@ export default defineConfig({
               { text: "💳 Fees", link: "/en/gtrade/fees" },
             ],
           },
+          {
+            text: "🎁 Loyalty Programs",
+            items: [
+              { text: "🎖️ Program Overview", link: "/en/loyalty-programs/overview" },
+              { text: "🤝 How to Participate", link: "/en/loyalty-programs/how-to-participate" },
+              { text: "🏆 Rewards", link: "/en/loyalty-programs/rewards" },
+            ],
+          },
+          {
+            text: "👥 Community",
+            items: [
+              { text: "📋 Community Guidelines", link: "/en/community/guidelines" },
+              { text: "🤲 Contributing", link: "/en/community/contributing" },
+              { text: "📱 Social Media", link: "/en/community/social-media" },
+            ],
+          },
+          {
+            text: "❓ Help",
+            items: [
+              { text: "🙋 FAQ", link: "/en/help/faq" },
+              { text: "🔧 Troubleshooting", link: "/en/help/troubleshooting" },
+              { text: "📞 Contact Support", link: "/en/help/contact-support" },
+            ],
+          },
         ],
       },
     },

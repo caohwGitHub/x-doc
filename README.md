@@ -2,7 +2,7 @@
 
 [![VitePress](https://img.shields.io/badge/VitePress-1.6.4-646CFF?style=flat-square&logo=vite)](https://vitepress.dev/)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](LICENSE)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
 > Gains Network 官方文档站点 - 去中心化杠杆交易平台的完整指南
 
@@ -54,8 +54,8 @@ npm run preview
 ### 开发服务器
 
 启动后访问：
-- 本地访问：http://localhost:5173
-- 局域网访问：http://[your-ip]:5173
+- 本地访问：`http://localhost:5173`
+- 局域网访问：`http://[your-ip]:5173`
 
 ## 📁 项目结构
 
@@ -174,7 +174,7 @@ npm run preview
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+本项目采用 MIT 许可证 - 查看项目根目录下的 LICENSE 文件了解详情。
 
 ## 🔗 相关链接
 
