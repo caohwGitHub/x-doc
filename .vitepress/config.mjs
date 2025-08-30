@@ -3,18 +3,34 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Gains Network 文档",
+  base: "/docs/",
   description: "Gains Network 官方文档 - 去中心化杠杆交易平台",
-  
+  head: [
+    // 添加 Tawk.to 脚本
+    [
+      'script',
+      { type: 'text/javascript' },
+      `var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); 
+      (function(){ 
+        var s1=document.createElement("script"), s0=document.getElementsByTagName("script")[0]; 
+        s1.async=true; 
+        s1.src='https://embed.tawk.to/68b2bd085b034c23e1c00e50/1j3t34qm4'; 
+        s1.charset='UTF-8'; 
+        s1.setAttribute('crossorigin','*'); 
+        s0.parentNode.insertBefore(s1,s0); 
+      })();`
+    ]
+  ],
   // 重写路径规则：将 zh/ 下的文件映射到根路径
   rewrites: {
     'zh/index.md': 'index.md',
     'zh/:path*': ':path*'
   },
-  
+
   // 全局主题配置
   themeConfig: {
     logo: "/logo.svg",
-    
+
     // 搜索功能配置
     search: {
       provider: "local",
@@ -57,7 +73,7 @@ export default defineConfig({
         },
       },
     },
-    
+
     socialLinks: [
       { icon: "github", link: "https://github.com/GainsNetwork" },
       { icon: "twitter", link: "https://twitter.com/GainsNetwork_io" },
@@ -166,7 +182,7 @@ export default defineConfig({
         returnToTopLabel: 'Return to top',
         langMenuLabel: 'Change language',
         outlineTitle: 'On this page',
-        
+
         nav: [
         ],
         sidebar: [
